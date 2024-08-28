@@ -9,7 +9,7 @@ import Octicons from '@expo/vector-icons/Octicons';
 import KitchensSection from '../../components/KitchensSection';
 import BrandsSection from '../../components/BrandsSection';
 import CampaignsSection from '../../components/CampaignsSection';
-
+import RestoranSection from '../../components/RestoranSection';
 
 
 function index({ navigation }) {
@@ -51,6 +51,7 @@ function index({ navigation }) {
         <CampaignsSection />
         <KitchensSection />
         <BrandsSection />
+        <RestoranSection/>
       </ScrollView>
     </SafeAreaView>
   )
